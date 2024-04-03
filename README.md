@@ -50,8 +50,8 @@ This project aims to create a responsive admin dashboard with the following feat
 
 ### Links
 
-- [Solution URL](https://github.com/SHABA01/Responsive-Admin-Dashboard-Design-1)
-- [Live Site URL](https://shaba01.github.io/Responsive-Admin-Dashboard-Design-1)
+- [Solution URL](https://github.com/SHABA01/responsive-nft-website-design)
+- [Live Site URL](https://shaba01.github.io/responsive-nft-website-design)
 
 ## My process
 
@@ -59,7 +59,6 @@ This project aims to create a responsive admin dashboard with the following feat
 
 - HTML
 - CSS
-- JavaScript
 
 ### What I learnt
 
