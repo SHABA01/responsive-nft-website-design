@@ -577,12 +577,14 @@ footer .right p{
     }
 
     .nft-shop .category {
-        flex-wrap: wrap; /* Allow the category links to wrap onto the next line */
+        border: 1px solid purple;
+        display: grid; /* Use CSS grid to arrange category links */
+        grid-template-columns: repeat(2, 1fr); /* Arrange links in two columns */
+        gap: 10px; /* Add gap between links */
     }
 
     .nft-shop .category a{
-        flex: 0 0 48%; /* Adjust the width of category links to occupy 48% of the container width */
-        margin-bottom: 10px; /* Add margin between the category links to improve spacing */
+        width: auto; /* Let the links adjust their width based on content */
     }
 
     footer{
