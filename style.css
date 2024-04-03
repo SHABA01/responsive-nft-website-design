@@ -528,33 +528,30 @@ footer .right p{
 
 
     
-    nav .links {
-        border: 1px solid red;
-    }
 
     nav .login {
         border: 1px solid darkgreen;
     }
 
-    .links {
+    nav .links {
         display: none; /* Hide regular navigation links */
     }
-    .mobile-links {
+    nav .mobile-links {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
-    .mobile-links a {
+    nav .mobile-links a {
         color: #000;
         text-decoration: none;
         font-size: 18px;
     }
-    .menu-toggle {
+    nav .menu-toggle {
         display: block;
         cursor: pointer;
     }
-    .hamburger {
+    nav .menu-toggle .hamburger {
         width: 30px;
         height: 3px;
         background-color: #000;
