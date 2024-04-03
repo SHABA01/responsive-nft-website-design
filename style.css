@@ -516,7 +516,7 @@ footer .right p{
     .sell-nft,
     .nft-shop,
     .sellers{
-        padding: 0/*20px*/;
+        padding: 0 20px;
     }
 
     nav a.logo{
@@ -529,7 +529,7 @@ footer .right p{
 
     nav .login button{
         font-size: 12px;
-        padding: 6px 0/*10px*/;
+        padding: 6px 10px;
     }
 
     header .left h1{
@@ -555,7 +555,7 @@ footer .right p{
     }
 
     footer{
-        padding: 40px 0/*20px*/;
+        padding: 40px 20px;
     }
 
 }
