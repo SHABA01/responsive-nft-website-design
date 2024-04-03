@@ -576,8 +576,13 @@ footer .right p{
         font-size: 30px;
     }
 
+    .nft-shop .category {
+        flex-wrap: wrap; /* Allow the category links to wrap onto the next line */
+    }
+
     .nft-shop .category a{
-        font-size: 5px;
+        flex: 0 0 48%; /* Adjust the width of category links to occupy 48% of the container width */
+        margin-bottom: 10px; /* Add margin between the category links to improve spacing */
     }
 
     footer{
