@@ -536,7 +536,30 @@ footer .right p{
         border: 1px solid darkgreen;
     }
 
-
+    .links {
+        display: none; /* Hide regular navigation links */
+    }
+    .mobile-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .mobile-links a {
+        color: #000;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger {
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        margin: 6px 0;
+    }
 
 
 
@@ -545,9 +568,9 @@ footer .right p{
         display: none;
     }
 
-    nav .links a{
+    /*nav .links a{
         font-size: 12px;
-    }
+    }*/
 
     nav .login button{
         font-size: 12px;
