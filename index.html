@@ -6,6 +6,7 @@
         <link rel="icon" type="image/ico" sizes="32x32" href="assets/logo.ico" />
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <title>Responsive NFT Website Design | ShabaTech</title>
     </head>
     <body>
@@ -208,5 +209,12 @@
                 <p>Copyright © 2024 ShabaTech, All Rights Reserved.</p>
             </div>
         </footer>
+        <script>
+            $(document).ready(function () {
+                $('.menu-toggle').click(function () {
+                    $('.mobile-links').toggleClass('active');
+                });
+            });
+        </script>
     </body>
 </html>
