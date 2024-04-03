@@ -585,7 +585,7 @@ footer .right p{
 
     .nft-shop .category a{
         width: auto; /* Let the links adjust their width based on content */
-        padding: 0;
+        text-align: center; /* Center the text within each link */
     }
 
     footer{
